@@ -14,7 +14,7 @@ import androidx.car.app.model.Template;
  *
  * <p>See {@link AutoService} for the app's entry point to the car host.
  */
-public class AutoScreen {
+public class AutoScreen extends Screen {
   public AutoScreen(@NonNull CarContext carContext) {
     super(carContext);
   }
